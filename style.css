@@ -54,18 +54,61 @@ nav a {
 /* header related */
 .header {
     background-color: #fff8f3;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:bottom left;
+    
+
 
 }
 
 .bannar {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .bannar .mahfuj {
-    width: 300px;
+    width: 500px;
     height: 100%;
     flex-shrink: 0;
+
 }
-.bannaer-content
+
+.bannaer-content {
+
+    justify-content: space-between;
+}
+
+.bannar-greeting {
+    color: #474747;
+
+    font-size: 45px;
+
+    font-weight: 600;
+    margin-bottom: 0px;
+
+
+}
+
+.bannar-title {
+
+    color: #181818;
+
+    font-size: 85px;
+
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+.bannar-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+
+}
